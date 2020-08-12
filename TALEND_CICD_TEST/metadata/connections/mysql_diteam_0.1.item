@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_dk5coNzAEeqw0Lih3A5pLA" name="mysql_diteam" id="_ISqOENzAEeqw0Lih3A5pLA" label="mysql_diteam" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://192.168.0.8:3306/diteamdb?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="diteam" Password="viDeSeFuMU/eC8WrFV0yGQ==" ServerName="192.168.0.8" DatasourceName="" FileFieldName="" SID="diteamdb" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
-  <taggedValue xmi:id="_dlYk0NzAEeqw0Lih3A5pLA" tag="Is Conn Need Reload" value="false"/>
-  <taggedValue xmi:id="_dnfdoNzAEeqw0Lih3A5pLA" tag="package filter" value=""/>
-  <taggedValue xmi:id="_dnyYkNzAEeqw0Lih3A5pLA" tag="Status" value=""/>
-  <taggedValue xmi:id="_dnyYkdzAEeqw0Lih3A5pLA" tag="Version" value="0.1"/>
-  <taggedValue xmi:id="_dnyYktzAEeqw0Lih3A5pLA" tag="Purpose" value=""/>
-  <taggedValue xmi:id="_dnyYk9zAEeqw0Lih3A5pLA" tag="Description" value=""/>
-  <taggedValue xmi:id="_dnyYlNzAEeqw0Lih3A5pLA" tag="Author" value=""/>
-  <taggedValue xmi:id="_dnyYldzAEeqw0Lih3A5pLA" tag="otherParameter"/>
-  <parameters xmi:id="_dlYk0dzAEeqw0Lih3A5pLA" key="CONN_PARA_KEY_USERNAME" value="diteam"/>
-</TalendMetadata:DatabaseConnection>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_dk5coNzAEeqw0Lih3A5pLA" name="mysql_diteam" id="_ISqOENzAEeqw0Lih3A5pLA" label="mysql_diteam" dataPackage="_TC1hMNzCEeqvPJuM67icJw" DatabaseType="MySQL" DriverClass="org.mariadb.jdbc.Driver" URL="jdbc:mariadb://192.168.0.8:3306/diteamdb?noDatetimeStringSync=true" dbVersionString="MARIADB" Port="3306" Username="diteam" Password="viDeSeFuMU/eC8WrFV0yGQ==" ServerName="192.168.0.8" DatasourceName="" FileFieldName="" SID="diteamdb" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_dlYk0NzAEeqw0Lih3A5pLA" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_dnfdoNzAEeqw0Lih3A5pLA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_dnyYkNzAEeqw0Lih3A5pLA" tag="Status" value=""/>
+    <taggedValue xmi:id="_dnyYkdzAEeqw0Lih3A5pLA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_dnyYktzAEeqw0Lih3A5pLA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_dnyYk9zAEeqw0Lih3A5pLA" tag="Description" value=""/>
+    <taggedValue xmi:id="_dnyYlNzAEeqw0Lih3A5pLA" tag="Author" value=""/>
+    <taggedValue xmi:id="_dnyYldzAEeqw0Lih3A5pLA" tag="otherParameter"/>
+    <taggedValue xmi:id="_TCb4kNzCEeqvPJuM67icJw" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_TCb4kdzCEeqvPJuM67icJw" tag="DB ProductVersion" value="8.0.18"/>
+    <taggedValue xmi:id="_TCcfoNzCEeqvPJuM67icJw" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_dlYk0dzAEeqw0Lih3A5pLA" key="CONN_PARA_KEY_USERNAME" value="diteam"/>
+    <parameters xmi:id="_NXsjUNzCEeqvPJuM67icJw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TC1hMNzCEeqvPJuM67icJw" name="diteamdb" dataManager="_dk5coNzAEeqw0Lih3A5pLA"/>
+</xmi:XMI>
