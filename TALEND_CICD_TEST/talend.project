@@ -22,6 +22,7 @@
       <relatedItems xmi:id="_u31b0NZkEeqqIZ7PPzJEgw" id="_TrSK8NZkEeqqIZ7PPzJEgw" version="Latest" type="property"/>
       <relatedItems xmi:id="_u31b0dZkEeqqIZ7PPzJEgw" id="_TrSK8NZkEeqqIZ7PPzJEgw - metadata" version="Latest" type="schema"/>
       <relatedItems xmi:id="_k-jf4NzCEeqvPJuM67icJw" id="_ISqOENzAEeqw0Lih3A5pLA" version="Latest" type="property"/>
+      <relatedItems xmi:id="_gnxvAN2VEeqvPJuM67icJw" id="_ISqOENzAEeqw0Lih3A5pLA - flowmeter" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_Fz4LANKaEeqFvYOX5zxxBw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Fz4LAdKaEeqFvYOX5zxxBw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
