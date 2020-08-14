@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_MzlqMN5CEeqqu51yBFUdqQ" name="amc_postgres" id="_bDEdIN5BEeqqu51yBFUdqQ" label="amc_postgres" dataPackage="_M0b-wN5CEeqqu51yBFUdqQ" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5434/amc" dbVersionString="V9_X" Port="5434" Username="postgres" Password="uuH03hSWUjnMZ+MRqFp3Xg==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="amc" SqlSynthax="SQL Syntax" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="public">
+    <taggedValue xmi:id="_MzlqMd5CEeqqu51yBFUdqQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_Mzx3cN5CEeqqu51yBFUdqQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_Mz7BYN5CEeqqu51yBFUdqQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_Mz7BYd5CEeqqu51yBFUdqQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_Mz7BYt5CEeqqu51yBFUdqQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_Mz7BY95CEeqqu51yBFUdqQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_Mz7BZN5CEeqqu51yBFUdqQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_Mz7BZd5CEeqqu51yBFUdqQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_M0Jq4N5CEeqqu51yBFUdqQ" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_M0Jq4d5CEeqqu51yBFUdqQ" tag="DB ProductVersion" value="9.6.19"/>
+    <taggedValue xmi:id="_M0Jq4t5CEeqqu51yBFUdqQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_MzlqMt5CEeqqu51yBFUdqQ" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_M0b-wN5CEeqqu51yBFUdqQ" name="amc" dataManager="_MzlqMN5CEeqqu51yBFUdqQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_M0b-wd5CEeqqu51yBFUdqQ" name="public"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
