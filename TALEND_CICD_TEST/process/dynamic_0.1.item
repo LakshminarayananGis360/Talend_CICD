@@ -227,20 +227,17 @@
     </metadata>
     <metadata connector="FLOW" name="out1">
       <column comment="" key="false" length="-1" name="Tablename" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="rowsinserted" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var">
         <mapperTableEntries name="var1" expression="((String)globalMap.get(&quot;row1.filename&quot;))" type="id_String"/>
-        <mapperTableEntries name="var2" expression="((Integer)globalMap.get(&quot;tFileInputDelimited_1_NB_LINE&quot;)) " type="id_Integer"/>
       </varTables>
       <outputTables sizeState="INTERMEDIATE" name="LOAD">
         <mapperTableEntries name="columns" expression="row2.columns " type="id_Dynamic" nullable="true"/>
       </outputTables>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="Tablename" expression="Var.var1 " type="id_String" nullable="true"/>
-        <mapperTableEntries name="rowsinserted" expression="Var.var2 " type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="columns" type="id_Dynamic" nullable="true"/>
@@ -313,7 +310,6 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileOutputDelimited_2">
       <column comment="" key="false" length="-1" name="Tablename" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="rowsinserted" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1056" posY="64">
