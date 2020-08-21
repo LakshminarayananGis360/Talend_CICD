@@ -328,7 +328,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="Rows"/>
       <elementValue elementRef="VALUE" value="((Integer)globalMap.get(&quot;tPostgresqlOutput_1_NB_LINE&quot;))"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Duration"/>
-      <elementValue elementRef="VALUE" value="((Long)globalMap.get(&quot;tChronometerStop_1_DURATION&quot;))"/>
+      <elementValue elementRef="VALUE" value="((Long)globalMap.get(&quot;tChronometerStop_1_DURATION&quot;))*1000"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>
