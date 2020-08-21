@@ -297,9 +297,9 @@
   </node>
   <node componentName="tChronometerStop" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="992" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tChronometerStop_1" show="false"/>
-    <elementParameter field="RADIO" name="SINCE_BEGINNING" value="true"/>
-    <elementParameter field="RADIO" name="SINCE_STARTER" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="STARTER" value="" show="false"/>
+    <elementParameter field="RADIO" name="SINCE_BEGINNING" value="false"/>
+    <elementParameter field="RADIO" name="SINCE_STARTER" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="STARTER" value="tChronometerStart_1"/>
     <elementParameter field="CHECK" name="DISPLAY" value="true"/>
     <elementParameter field="CHECK" name="DISPLAY_COMPONENT_NAME" value="true"/>
     <elementParameter field="TEXT" name="CAPTION" value="&quot;&quot;"/>
