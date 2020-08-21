@@ -301,7 +301,7 @@
     <elementParameter field="RADIO" name="SINCE_STARTER" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="STARTER" value="tChronometerStart_1"/>
     <elementParameter field="CHECK" name="DISPLAY" value="true"/>
-    <elementParameter field="CHECK" name="DISPLAY_COMPONENT_NAME" value="true"/>
+    <elementParameter field="CHECK" name="DISPLAY_COMPONENT_NAME" value="false"/>
     <elementParameter field="TEXT" name="CAPTION" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="DISPLAY_READABLE_DURATION" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
