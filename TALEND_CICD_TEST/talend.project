@@ -91,6 +91,10 @@
       <relatedItems xmi:id="_Q7IbGeB2EeqL1NiUgz5jvA" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_Q7IbGuB2EeqL1NiUgz5jvA" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_Q7IbG-B2EeqL1NiUgz5jvA" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_D6yd4OXfEeqL1NiUgz5jvA" id="_JC5coOXeEeqL1NiUgz5jvA" version="Latest" type="property"/>
+      <relatedItems xmi:id="_D6yd4eXfEeqL1NiUgz5jvA" id="_RCDEgOXeEeqL1NiUgz5jvA" version="Latest" type="property"/>
+      <relatedItems xmi:id="_D6yd4uXfEeqL1NiUgz5jvA" id="_RCDEgOXeEeqL1NiUgz5jvA - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_D6yd4-XfEeqL1NiUgz5jvA" id="_JC5coOXeEeqL1NiUgz5jvA - metadata" version="Latest" type="schema"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_t_prIOHfEeqL1NiUgz5jvA">
       <baseItem xmi:id="_t_prIeHfEeqL1NiUgz5jvA" id="__-HtwOHdEeqL1NiUgz5jvA" version="0.1" type="job"/>
