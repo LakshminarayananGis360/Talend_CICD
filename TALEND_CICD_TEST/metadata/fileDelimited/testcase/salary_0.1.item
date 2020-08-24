@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_RCDrkOXeEeqL1NiUgz5jvA" name="salary" dataPackage="_RCDrkeXeEeqL1NiUgz5jvA" Server="Localhost 127.0.0.1" FilePath="D:/Talend_files/salary.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_RCDrkeXeEeqL1NiUgz5jvA" name="default" dataManager="_RCDrkOXeEeqL1NiUgz5jvA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RCDrkuXeEeqL1NiUgz5jvA" id="_KovZEOXeEeqL1NiUgz5jvA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RCDrk-XeEeqL1NiUgz5jvA" label="salary_no" length="2" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RCDrlOXeEeqL1NiUgz5jvA" label="salary" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
