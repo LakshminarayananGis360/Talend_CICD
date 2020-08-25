@@ -355,7 +355,7 @@
     <elementParameter field="TEXT" name="BUCKET" value="&quot;staging0313&quot;"/>
     <elementParameter field="TEXT" name="KEY" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="FILE" value="&quot;C:/Users/GainAdmin/Desktop/S3in/&quot;+((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;))"/>
-    <elementParameter field="CHECK" name="ENABLE-SERVER-SIDE-ENCRYPTION" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE-SERVER-SIDE-ENCRYPTION" value="true"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CHECK" name="CONFIG_CLIENT" value="false" show="false"/>
     <elementParameter field="TABLE" name="CLIENT_CONFIGURATION" show="false"/>
